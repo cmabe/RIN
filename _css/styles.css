@@ -73,6 +73,7 @@ select {
 button {
     background: #ffab41;
     color: white;
+    
     }
 
 ul {
@@ -85,7 +86,6 @@ aside {
     float: right;
     background: #FFE4C4;
     border-color: gray;
-    
 }
     
 .formSubmissionButton {
@@ -213,9 +213,49 @@ li a{
     color: gray;
     }
     
+.dropbtn {
+    background-color: #ffab41;
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+/* Dropdown list content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bcbcbc;
+    min-width: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
 
+/* Dropdown list text */
+.dropdown-content a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+}
 
-    
-    
+/* Dropdown list's colour when hover is on top */
+.dropdown-content a:hover {background-color: #e6e6e6}
+
+/* Dropdown list */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown button's colour when hover is on top */
+.dropdown:hover .dropbtn {
+    background-color: #ffe6cc;
+}
+
+ 
